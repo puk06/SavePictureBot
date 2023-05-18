@@ -45,7 +45,7 @@ try{
                 }
             }
 
-            if (message.attachments.size > 0 && message.attachments.every(attachment => attachment.url.endsWith('.png') || attachment.url.endsWith('.jpg') || attachment.url.endsWith('.gif')) && message.channel.id == channelid) {
+            if (message.attachments.size > 0 && message.attachments.every(attachment => attachment.url.endsWith('.png') || attachment.url.endsWith('.jpg') || attachment.url.endsWith('.gif') || attachment.url.endsWith('.jpeg') || attachment.url.endsWith('.JPG')) && message.channel.id == channelid) {
                 if (message.author.bot) return;
                 const attachment = message.attachments.first();
                 const imageURL = attachment.url;

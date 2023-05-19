@@ -1,0 +1,11 @@
+{
+    "name": "save-picture-bot",
+    "version": "1.0.0",
+    "description": "Saving picture on Discord!",
+    "dependencies": {
+        "discord.js": "12.3.0",
+        "dotenv": "16.0.3",
+        "fs": "0.0.1-security"
+    }
+
+}

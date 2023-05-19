@@ -9,6 +9,8 @@ Please use the .env file to set the channel to save the image when it is sent an
 
 # How to use
 
+Type```npm i```to install required library
+
 ```Run index.js```
 
 1: ```Send Picture in channel you set!```
